@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-0557a15b87f6559cf"
   instance_type = "t2.micro"
-
+  key_name = "iac-estudo"
   tags = {
     Name = "PrimeiraInstancia"
   }
