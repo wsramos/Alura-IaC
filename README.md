@@ -18,6 +18,12 @@ Repositório para estudo de configuração de uma plataforma como Código
     terraform apply
     ~~~~
 
+- **Iniciar um servidor Http no linux**
+    - OBS: O comando abaixo instancia um servidor web que permanecerá executando mesmo após o fechamento do SSH.
+    ~~~~
+    nohup busybox httpd -f -p 8080 &
+    ~~~~
+
 # Observações
 
 - Para acesso via SSH é necessário criar um par de chaves e configura-la no arquivo main.tf.
