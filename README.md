@@ -18,6 +18,11 @@ Repositório para estudo de configuração de uma plataforma como Código
     terraform apply
     ~~~~
 
+- **Deleta a máquina**
+    ~~~~
+    terraform destroy
+    ~~~~
+
 - **Iniciar um servidor Http no linux**
     - OBS: O comando abaixo instancia um servidor web que permanecerá executando mesmo após o fechamento do SSH.
     ~~~~
